@@ -1,0 +1,94 @@
+.parent_cont{
+    width: 100%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf9WkJWh1gTWNVAqwtWFJVUzGocYIB5w0XA&s);
+}
+.Body_cont{
+    width: 80%;
+    display: flex;
+    height: 70vh;
+    align-items: flex-start;
+    gap:16px;
+    justify-self: center;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+.Body_Sect{
+    width:20%;
+    background-color: white;
+    padding: 10px;
+  
+}
+.Body_img1{
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    font-weight: bold;
+    /* cursor: pointer; */
+    list-style: none;
+    
+}
+.Body_img1 li{
+  display: flex;
+  align-items: center;
+  gap:2px;
+  cursor: pointer;
+}
+.Body_img2 li{
+  display: flex;
+  align-items: center;
+  gap:2px
+}
+.image2{
+  width: 24px;           
+  height: 24px;
+}
+.Body_Sect2{
+    width:20%;
+    background-color: white;
+    padding: 10px;
+}
+.Body_img2{
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+.image3{
+  width: 24px;           
+  height: 24px;
+}
+.Aricle_img{
+    width: 100%;
+    height: 50vh;
+    display: block;
+
+}
+.btn2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    cursor: pointer;
+    width:120px;
+    background-color: yellow;
+    height: 7vh;
+    border-radius: 6px;
+    border: 1px solid yellow;
+    position: absolute;
+    top: 50%;
+}
+
+.btn2_cont{
+    position: relative;
+    width: 100%;
+}
+.left{
+    left: 10px;
+}
+.right{
+    right:10px
+}
